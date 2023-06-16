@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/contact_card"
+    android:layout_marginStart="12dp"
+    android:layout_marginEnd="12dp"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="10dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/contact_card_icon"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:src="@drawable/person"
+            />
+
+        <TextView
+            android:id="@+id/chat_screen_contact_name"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@id/contact_card_icon"
+            android:gravity="start"
+            android:text="Name"
+            android:textColor="@color/lavender"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/chat_screen_contact_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/contact_card_icon"
+
+            android:layout_marginHorizontal="30dp"
+            android:layout_below="@id/chat_screen_contact_name"
+            android:gravity="start"
+            android:maxLines="1"
+            android:text="Email"
+            android:textColor="@color/lavender"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/chat_screen_contact_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginBottom="12dp"
+            android:layout_below="@id/chat_screen_contact_email"
+            android:gravity="start"
+            android:layout_toEndOf="@id/contact_card_icon"
+
+            android:maxLines="1"
+            android:text="Number"
+            android:textColor="@color/lavender"
+            android:textSize="14sp" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

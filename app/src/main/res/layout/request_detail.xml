@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.RequestDetailedPostActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:id="@+id/request_detailedProductImage"
+            android:padding="8dp"
+            android:layout_gravity="center"
+            android:src="@drawable/uploadimg"
+            android:scaleType="fitXY"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:layout_gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/request_detailedProductCategory"
+                    android:text="product category"
+                    android:textSize="24sp"
+                    android:padding="20dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/lavender"/>
+                </androidx.cardview.widget.CardView>
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"/>
+            <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:layout_gravity="center">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="فئة السلعة"
+                        android:textSize="24sp"
+                        android:padding="20dp"
+                        android:layout_gravity="center"
+                        android:background="@color/purple"
+                        android:textColor="@color/white"
+                        />
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="Description"
+                android:layout_gravity="center"
+                android:id="@+id/request_detailedProductDescription"
+                android:textSize="18sp"
+                android:textColor="@color/lavender"/>
+
+        </androidx.cardview.widget.CardView>
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"/>
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="وصف السلعة"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:background="@color/purple"
+                android:textColor="@color/white"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:layout_gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="Desired Exchange"
+                    android:layout_gravity="center"
+                    android:id="@+id/request_detailedProductDesiredExchange"
+                    android:textSize="18sp"
+                    android:textColor="@color/lavender"/>
+            </androidx.cardview.widget.CardView>
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"/>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:layout_gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="الفئة المرغوبة"
+                    android:layout_gravity="center"
+                    android:textSize="18sp"
+                    android:background="@color/purple"
+                    android:textColor="@color/white"
+                    />
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:layout_gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="Product Price"
+                    android:layout_gravity="center"
+                    android:id="@+id/request_detailedProductPrice"
+                    android:textSize="18sp"
+                    android:textColor="@color/lavender"/>
+            </androidx.cardview.widget.CardView>
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"/>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:layout_gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="سعر السلعة"
+                    android:layout_gravity="center"
+                    android:textSize="18sp"
+                    android:background="@color/purple"
+                    android:textColor="@color/white"
+                    />
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/dialog_bg"
+                android:layout_marginHorizontal="20dp"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:layout_marginTop="30dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="هل تريد قبول طلب المبادلة ؟"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="26sp"
+                    android:textStyle="bold"
+                    />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginVertical="10dp"
+                    android:orientation="horizontal">
+                    <Button
+                        android:id="@+id/request_close_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="لا"
+                        android:textSize="20sp"
+                        android:backgroundTint="@color/red"/>
+                    <Space
+                        android:layout_width="20dp"
+                        android:layout_height="match_parent"/>
+                    <Button
+                        android:id="@+id/request_approve_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="نعم"
+                        android:textSize="20sp"
+                        android:backgroundTint="@color/purple"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Exchange-بادلني</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="menu_dashboard">Home</string>
+    <string name="menu_leaderboard">leader</string>
+    <string name="menu_store">store</string>
+    <string name="menu_profile">profile</string>
+    <string name="choose_exchange_prompt">choose desired exchange category</string>
+    <string-array name="exchange_options">
+        <item>اختر فئة للبحث عن سلع</item>
+        <item>سيارات</item>
+        <item>الكترونيات</item>
+        <item>ألبسة</item>
+        <item>مفروشات</item>
+        <item>عقارات</item>
+        <item>غير ذلك</item>
+    </string-array>
+    <string-array name="desired_exchange_options">
+        <item>اختر فئة المقايضة المرغوبة</item>
+        <item>سيارات</item>
+        <item>الكترونيات</item>
+        <item>ألبسة</item>
+        <item>مفروشات</item>
+        <item>عقارات</item>
+        <item>غير ذلك</item>
+
+    </string-array>
+    <string-array name="product_categories">
+        <item>اختر نوع المنتج</item>
+        <item>سيارات</item>
+        <item>الكترونيات</item>
+        <item>ألبسة</item>
+        <item>مفروشات</item>
+        <item>عقارات</item>
+        <item>غير ذلك</item>
+
+    </string-array>
+
+</resources>
